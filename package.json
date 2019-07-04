@@ -1,0 +1,25 @@
+{
+  "name": "umutbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "serve": "start tsc -w  &&  start nodemon build/main.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/nodemailer": "^6.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.2.0",
+    "http-status-codes": "^1.3.2",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.2"
+  }
+}
