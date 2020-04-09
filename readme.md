@@ -6,5 +6,4 @@
 
 ## Installation & Run
 
-> yarn
-> yarn serve
+> yarn && yarn serve
